@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    font-family: "Rubik";
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+section{
+    padding-bottom: 2rem;
+}
+.bg-light {
+    background-color: #fff!important;
+}
+.nav-item .nav-link{
+    color: #000 !important;
+    font-family: "Rubik";
+    font-weight: 400;
+}
+.nav-item .nav-link:hover{
+  color: hsl(0, 94%, 66%) !important;
+}
+.nav-link{
+    padding-right: 2.5rem !important;
+}
+.btn-outline-danger {
+    color: hsl(0, 94%, 66%) !important;
+    border-color: hsl(0, 94%, 66%) !important;
+}
+.btn-outline-danger:hover {
+    color: #fff !important;
+    border-color: hsl(0, 94%, 66%) !important;
+    background-color: hsl(0, 94%, 66%) !important;
+}
+.btn-outline-primary {
+    color: hsl(231, 69%, 60%)!important;
+    border-color: hsl(231, 69%, 60%)!important;
+}
+.btn-outline-primary:hover {
+    color: #fff !important;
+    border-color: hsl(231, 69%, 60%) !important;
+    background-color: hsl(231, 69%, 60%)!important;
+}
+.btn-outline-secondary {
+    color: hsl(229, 8%, 60%)!important;
+    border-color: hsl(229, 8%, 60%)!important;
+}
+.btn-outline-secondary:hover {
+    color: #fff !important;
+    border-color: hsl(229, 8%, 60%) !important;
+    background-color: hsl(229, 8%, 60%)!important;
+}
+.hero-bg{
+    font-family: "Rubik";
+}
+.hero-bg h1{
+    color: hsl(229, 31%, 21%);
+}
+.hero-bg p{
+    color: hsl(229, 8%, 60%);
+}
+.main-header{
+    position: relative;
+}
+.img-background{
+    height: 200px;
+    background-color: hsl(231, 69%, 60%);
+    width: 350px;
+    border-radius: 100px 0px 0px 100px;
+    position: absolute;
+    right: 0;
+    bottom: 40px;
+}
+.feature{
+    font-family: "Rubik";
+}
+.feature h1{
+    color: hsl(229, 31%, 21%);
+}
+.feature p{
+    color: hsl(229, 8%, 60%);
+}
+.feature-words{
+    width: 50%;
+    text-align: center;
+}
+.main-tab{
+    width: 50%;
+    text-align: center;
+}
+.feature-tabs{
+    font-family: "Rubik";
+}

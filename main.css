@@ -166,3 +166,29 @@ border: none;
 .feature-tabs .nav-tabs{
     justify-content: space-between;
 }
+.card-extension{
+    font-family: "Rubik";
+}
+ .card{
+    box-shadow: 0px 9px 20px rgba(83, 85, 223, 0.25);
+    border: none !important;
+}
+.card-item p{
+    color: hsl(229, 8%, 60%);
+    padding-bottom: 1rem;
+}
+/* .card-extension .card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+.card-item{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card-hr{
+    color:  hsl(229, 8%, 60%);
+}

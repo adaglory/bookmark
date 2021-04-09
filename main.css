@@ -83,6 +83,11 @@ section{
     border-color: hsl(231, 69%, 60%) !important;
     background-color: hsl(231, 69%, 60%)!important;
 }
+.btn-primary{
+    color: #fff !important;
+    border-color: hsl(231, 69%, 60%) !important;
+    background-color: hsl(231, 69%, 60%)!important;
+}
 .btn-outline-secondary {
     color: hsl(229, 8%, 60%)!important;
     border-color: hsl(229, 8%, 60%)!important;
@@ -113,6 +118,18 @@ section{
     right: 0;
     bottom: 40px;
 }
+.one-click{
+    position: relative;
+}
+.img-background-click{
+    height: 200px;
+    background-color: hsl(231, 69%, 60%);
+    width: 350px;
+    border-radius: 0px 100px 100px 0px;
+    position: absolute;
+    left: 0;
+    bottom: -25px;
+}
 .feature{
     font-family: "Rubik";
 }
@@ -123,7 +140,7 @@ section{
     color: hsl(229, 8%, 60%);
 }
 .feature-words{
-    width: 50%;
+    width: 30%;
     text-align: center;
 }
 .main-tab{
@@ -132,4 +149,20 @@ section{
 }
 .feature-tabs{
     font-family: "Rubik";
+}
+.feature-tabs .nav-tabs .nav-link.active {
+    background-color: none;
+    border: none;
+    border-bottom: 3px solid hsl(0, 94%, 66%);
+}
+.feature-tabs .nav-tabs .nav-link.active:hover {
+    background-color: none;
+    border: none;
+}
+.feature-tabs .nav-tabs .nav-link:hover{
+background: none;
+border: none;
+}
+.feature-tabs .nav-tabs{
+    justify-content: space-between;
 }

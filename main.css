@@ -192,3 +192,20 @@ border: none;
 .card-hr{
     color:  hsl(229, 8%, 60%);
 }
+.faq-toggle{
+    display: flex;
+    justify-content: space-between;
+}
+.faq-toggle i{
+    color: hsl(231, 69%, 60%);
+}
+.footer{
+    background-color: hsl(231, 69%, 60%);
+    font-family: "Rubik";
+}
+.main-footer{
+    color: white;
+}
+.main-footer h6{
+    font-weight: 100;
+}
